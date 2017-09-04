@@ -1,7 +1,7 @@
 # sharewilly-wp
 Mit Sharewilly WP können deine Webseiten-Besucher Beiträge und Seiten in den Sozialen Medien teilen.
 
-![Sharewilly Logo](/images/sharewilly-wp-plugin-m.png)
+![Sharewilly Logo](https://github.com/sharewilly/sharewilly/blob/gh-pages/images/sharewilly-wp-plugin-m.png)
 
 # install sharewilly-wp
 
