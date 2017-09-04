@@ -1,0 +1,74 @@
+
+/**
+ * Sharewilly CSS
+ *
+ * @link       http://muennecke-vollmers.de
+ * @since      1.0.0
+ *
+ * @package    Sharewilly_Wp
+ * @subpackage Sharewilly_Wp/public/css
+ * 
+ * Copyright (c) 2017 Münnecke & Vollmers GbR
+ *
+ */
+
+.sharewilly-sharing p {
+	font-size:1.2em;
+	font-family:"Roboto Condensed", sans-serif;
+	font-weight:300;
+	text-transform: uppercase;
+}
+.sharewilly-sharing {
+    margin: 30px 0px 30px 0px;
+    -webkit-font-smoothing: antialiased;
+}
+a.sharewilly-link {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	font-weight: 300;
+}
+.sharewilly-link {
+    padding: 8px 8px 4px 8px !important;
+    color: white;
+    font-size: 10px;
+	width:50px !important;
+	text-align: center;
+    border-radius: 2px;
+    margin-top: 2px;
+    margin-right: 2px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+.sharewilly-link:hover,
+.sharewilly-link:active,
+.sharewilly-link:visited {
+    color: white;
+} 
+.sharewilly-twitter {
+    background: #00aced;
+} 
+.sharewilly-transition:hover,
+.sharewilly-transition:active {
+    background: #000;
+	-webkit-transition: background 1s ease-in;
+	-moz-transition: background 1s ease-in;
+	-ms-transition: background 1s ease-in;
+	-o-transition: background 1s ease-in;
+	transition: background 1s ease-in;
+} 
+.sharewilly-facebook {
+    background: #3b5998;
+}
+.sharewilly-googleplus {
+    background: #D64937;
+}
+.sharewilly-xing {
+    background:  #126567;
+}
+.sharewilly-pinterest {
+    background: #C92228;
+}
+.sharewilly-linkedin {
+    background: #007bb6;
+}
