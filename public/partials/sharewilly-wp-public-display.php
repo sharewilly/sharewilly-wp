@@ -25,7 +25,7 @@
 		font-weight:900;
 	}
 
-	li {
+	li.myli {
     padding-left: 1.28571429em;
     text-indent: -1.28571429em;
 }
