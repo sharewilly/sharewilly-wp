@@ -3,27 +3,22 @@
 /**
  * Fired when the plugin is uninstalled.
  *
- * When populating this file, consider the following flow
- * of control:
- *
- * - This method should be static
- * - Check if the $_REQUEST content actually is the plugin name
- * - Run an admin referrer check to make sure it goes through authentication
- * - Verify the output of $_GET makes sense
- * - Repeat with other user roles. Best directly by using the links/query string parameters.
- * - Repeat things for multisite. Once for a single site in the network, once sitewide.
- *
- * This file may be updated more in future version of the Boilerplate; however, this is the
- * general skeleton and outline for how the file should work.
- *
  * For more information, see the following discussion:
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
- * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @link              http://muennecke-vollmers.de
+ * @since             1.0.0
+ * @package           Sharewilly_Wp
  *
- * @package    Sharewilly_Wp
- */
+ * @wordpress-plugin
+ * Plugin Name:       Sharewilly WP - Share buttons for posts and pages
+ * Plugin URI:        https://sharewilly.de
+ * Description:       A very simple sharing plugin for your site. Let your visitors share posts and pages on Facebook, Twitter, Google+, LinkedIn and XING. By the way: we do not track!
+ * Version:           1.0.0
+ * Author:            Münnecke & Vollners GbR
+ * Author URI:        http://muennecke-vollmers.de
+ * 
+ * Copyright:          (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
 
 // If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
