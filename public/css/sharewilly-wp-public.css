@@ -1,14 +1,19 @@
 /**
- * Sharewilly CSS
+ * Sharwilly WP CSS
  *
- * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @link              http://muennecke-vollmers.de
+ * @since             1.0.0
+ * @package           Sharewilly_Wp
  *
- * @package    Sharewilly_Wp
- * @subpackage Sharewilly_Wp/public/css
+ * @wordpress-plugin
+ * Plugin Name:       Sharewilly WP - Share buttons for posts and pages
+ * Plugin URI:        https://sharewilly.de
+ * Description:       A very simple sharing plugin for your site. Let your visitors share posts and pages on Facebook, Twitter, Google+, LinkedIn and XING. By the way: we do not track!
+ * Version:           1.0.0
+ * Author:            Münnecke & Vollners GbR
+ * Author URI:        http://muennecke-vollmers.de
  * 
- * Copyright (c) 2017 Münnecke & Vollmers GbR
- *
+ * Copyright:          (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  */
 
 .sharewilly-sharing p {
