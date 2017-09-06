@@ -8,18 +8,10 @@
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/admin
+ *
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  */
 
-/**
- * The admin-specific functionality of the plugin.
- *
- * Defines the plugin name, version, and two examples hooks for how to
- * enqueue the admin-specific stylesheet and JavaScript.
- *
- * @package    Sharewilly_Wp
- * @subpackage Sharewilly_Wp/admin
- * @author     Münnecke & Vollners GbR <hallo@muennecke-vollmers.de>
- */
 class Sharewilly_Wp_Admin {
 
 	/**

@@ -10,6 +10,8 @@
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/admin/partials
+ *
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  */
 ?>
 
