@@ -11,19 +11,10 @@
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/includes
+ *
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  */
 
-/**
- * Define the internationalization functionality.
- *
- * Loads and defines the internationalization files for this plugin
- * so that it is ready for translation.
- *
- * @since      1.0.0
- * @package    Sharewilly_Wp
- * @subpackage Sharewilly_Wp/includes
- * @author     Münnecke & Vollners GbR <hallo@muennecke-vollmers.de>
- */
 class Sharewilly_Wp_i18n {
 
 

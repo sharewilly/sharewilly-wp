@@ -8,19 +8,10 @@
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/includes
+ *
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  */
 
-/**
- * Register all actions and filters for the plugin.
- *
- * Maintain a list of all hooks that are registered throughout
- * the plugin, and register them with the WordPress API. Call the
- * run function to execute the list of actions and filters.
- *
- * @package    Sharewilly_Wp
- * @subpackage Sharewilly_Wp/includes
- * @author     Münnecke & Vollners GbR <hallo@muennecke-vollmers.de>
- */
 class Sharewilly_Wp_Loader {
 
 	/**

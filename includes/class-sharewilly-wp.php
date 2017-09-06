@@ -11,22 +11,10 @@
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/includes
+ *
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  */
 
-/**
- * The core plugin class.
- *
- * This is used to define internationalization, admin-specific hooks, and
- * public-facing site hooks.
- *
- * Also maintains the unique identifier of this plugin as well as the current
- * version of the plugin.
- *
- * @since      1.0.0
- * @package    Sharewilly_Wp
- * @subpackage Sharewilly_Wp/includes
- * @author     Münnecke & Vollners GbR <hallo@muennecke-vollmers.de>
- */
 class Sharewilly_Wp {
 
 	/**
