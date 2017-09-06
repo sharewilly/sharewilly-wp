@@ -19,6 +19,7 @@
  * Author URI:        http://muennecke-vollmers.de
  * 
  * Copyright:          (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
+ */
 
 // If uninstall not called from WordPress, then exit.
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {
