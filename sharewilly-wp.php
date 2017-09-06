@@ -15,7 +15,7 @@
  * Author:            Münnecke & Vollners GbR
  * Author URI:        http://muennecke-vollmers.de
  * 
- * Copyright:         (c) 2017 Münnecke & Vollmers GbR
+ * Copyright:          (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  *
  */
 
