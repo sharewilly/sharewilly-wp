@@ -10,7 +10,7 @@
  * @subpackage Sharewilly_Wp/public
  * @author     Münnecke & Vollners GbR <hallo@muennecke-vollmers.de>
  * 
- * Copyright (c)  * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  *
  */
 
