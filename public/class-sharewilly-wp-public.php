@@ -144,7 +144,7 @@ class Sharewilly_Wp_Public {
 	public function section_callback( $arguments ) {
 		switch( $arguments['id'] ){
 			case 'intro_section':
-				echo '<div class="ulli"><li>Mit Sharewilly WP können deine Webseiten-Besucher Beiträge und Seiten in den Sozialen Medien teilen.</li> <li>Sharing-Buttons für Facebook, Google+, Twitter, LinkedIn, XING & Pinterest</li> <li>Sharewilly WP kommt ganz ohne JavaScript daher.</li> <li>Sharewilly WP ist effizient, schlank und schnell.</li> <li>Wir tracken nicht! Sharewilly WP respektiert deine Privatspäre.</li></div>';
+				echo '<div class="ulli"><li class="myli">Mit Sharewilly WP können deine Webseiten-Besucher Beiträge und Seiten in den Sozialen Medien teilen.</li> <li  class="myli">Sharing-Buttons für Facebook, Google+, Twitter, LinkedIn, XING & Pinterest</li> <li  class="myli">Sharewilly WP kommt ganz ohne JavaScript daher.</li> <li  class="myli">Sharewilly WP ist effizient, schlank und schnell.</li> <li  class="myli">Wir tracken nicht! Sharewilly WP respektiert deine Privatspäre.</li></div>';
 				break;
 		}
 	}
