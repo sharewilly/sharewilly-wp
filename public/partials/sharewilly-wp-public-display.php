@@ -11,9 +11,10 @@
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/public/partials
  * 
- * Copyright (c) 2017 Münnecke & Vollmers GbR
+ * Copyright (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
  *
  */
+ 
 ?>
 	<style>
 	@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
