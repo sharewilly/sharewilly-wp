@@ -1,10 +1,11 @@
 ![Sharewilly Logo](https://github.com/sharewilly/sharewilly/blob/gh-pages/images/sharewilly-wp-plugin-m.png)
 
-# Sharewilly WP WordPress Plugin - Einfach teilen
+# Sharewilly WP WordPress Plugin - Einfach teilen - Simple sharing
 
 # Install Sharewilly-WP
 
 To add our Sharewilly WP WordPress Plugin to your WordPress site you can use the built-in plugin installer:
+
 1. Download this repository to your computer. Go to > "Clone or download" > "Download ZIP"  
 2. Log in to your WP admin area.
 3. Go to Plugins > Add New. 
