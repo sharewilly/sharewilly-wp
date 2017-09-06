@@ -1,4 +1,4 @@
-![Sharewilly Logo](https://github.com/sharewilly/sharewilly/blob/gh-pages/images/sharewilly-wp-plugin-m.png)
+![Sharewilly Logo](https://github.com/sharewilly/sharewilly/images/sharewilly-promotion.png)
 
 # Sharewilly WP WordPress Plugin - Einfach teilen - Simple sharing
 
