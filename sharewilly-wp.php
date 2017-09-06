@@ -79,7 +79,7 @@ add_filter( 'plugin_action_links_' . plugin_basename(__FILE__), 'sharewilly_plug
 
 function sharewilly_plugin_action_links( $links ) {
    $links[] = '<a href="'. esc_url( get_admin_url(null, 'options-general.php') ) .'">Einstellungen</a>';
-   $links[] = '<a href="https://sharewilly.de" target="_blank">Weitere Plugins</a>';
+   $links[] = '<a href="https://sharewilly.github.io/sharewilly/" target="_blank">Weitere Plugins</a>';
    return $links;
 }
 
