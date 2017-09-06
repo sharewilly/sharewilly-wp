@@ -2,16 +2,17 @@
 
 # Sharewilly WP WordPress Plugin - Einfach teilen
 
-# install sharewilly-wp
+# Install Sharewilly-WP
 
-1. Download the master branch
-2. Login to your wordpress-site as admin
-3. Navigate to the plugins directory
-4. Click "Upload plugin"
-5. Choose the zip repository "sharewilly-wp.zip"
-6. Click on "upload plugin"
+To add our Sharewilly WP WordPress Plugin to your WordPress site you can use the built-in plugin installer:
+1. Download this repository to your computer. Go to > "Clone or download" > "Download ZIP"  
+2. Log in to your WP admin area.
+3. Go to Plugins > Add New. 
+4. Click > Upload plugin > Choose "sharewilly-wp.zip" from your computer.
+5. Then click "Install Now" and Sharewilly WP plugin will be installed shortly.
+6. Click "Activate Plugin" to activate it, or "Return" to "Plugin Installer" for further actions.
 7. That's it :-)
 
-# settings
+# Settings
 
-On the left you will notice "Sharewilly WP" in the menu. Click on it. You are now able to change the text before the sharing buttons.
+On the left you will notice "Sharewilly WP" in the admin menu. On our Sharewilly WP settings page you are able to change the text in front of the sharing buttons.
