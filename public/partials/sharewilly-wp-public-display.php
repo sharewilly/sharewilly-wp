@@ -49,7 +49,7 @@
                 submit_button();
             ?>
 		</form>
-		<p style="margin: 0 0 25px 0;">Wenn du nicht weiter kommst: <a href="https//sharewilly.de/sharewilly-wp-faq">Sharewilly WP FAQ / Hilfe</a> | Support: <a href="https//sharewilly.de/sharewilly-wp-faq">Sende uns eine E-Mail mit deinem Anliegen</a></p>
+		<p style="margin: 0 0 25px 0;">Wenn du nicht weiter kommst: <a href="https://sharewilly.github.io/sharewilly/">Sharewilly WP FAQ / Hilfe</a> | Support: <a href="http://muennecke-vollmers.de/kontakt/">Sende uns eine E-Mail mit deinem Anliegen</a></p>
 		<code style="font-size: 12px; margin-top: 15px;"> © 2017 <a href="http://muennecke-vollmers.de" target="_blank">Münnecke & Vollmers GbR</a> | Made in Buxtehude unter der Marke widilo®</code>
 	</div> 
 	
