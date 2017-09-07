@@ -9,7 +9,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Sharewilly WP - Share buttons for posts and pages
- * Plugin URI:        https://sharewilly.github.io/sharewilly/
+ * Plugin URI:        https://sharewilly.de
  * Description:       A very simple sharing plugin for your site. Let your visitors share posts and pages on Facebook, Twitter, Google+, LinkedIn and XING. By the way: we do not track!
  * Version:           1.0.0
  * Author:            Münnecke & Vollners GbR
