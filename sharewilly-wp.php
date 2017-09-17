@@ -55,12 +55,12 @@ function sharewilly_wp_social_sharing_buttons($content) {
 		// Sharewilly WP buttons
 		$content .= '<div class="sharewilly-sharing">';
 		$content .= '<p>'.  get_option('sharetext_field') .' <i class="fa fa-smile-o" aria-hidden="true"></i></p>'; 
-		$content .= '<a class="sharewilly-link sharewilly-twitter sharewilly-transition" href="'. $twitter_url .'" target="_blank"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>';
-		$content .= '<a class="sharewilly-link sharewilly-facebook sharewilly-transition" href="'.$facebook_url.'" target="_blank"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>';
-		$content .= '<a class="sharewilly-link sharewilly-googleplus sharewilly-transition" href="'.$google_url.'" target="_blank"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>';
-		$content .= '<a class="sharewilly-link sharewilly-xing sharewilly-transition" href="'.$xing_url.'" target="_blank"><i class="fa fa-xing fa-2x" aria-hidden="true"></i></a>';
-		$content .= '<a class="sharewilly-link sharewilly-linkedin sharewilly-transition" href="'.$linkedIn_url.'" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>';
-		$content .= '<a class="sharewilly-link sharewilly-pinterest sharewilly-transition" href="'.$pinterest_url.'" data-pin-custom="true" target="_blank"><i class="fa fa-pinterest-p fa-2x" aria-hidden="true"></i></a>';
+		$content .= '<a class="sharewilly-link sharewilly-twitter sharewilly-transition" href="'. $twitter_url .'" target="_blank"><i class="fa fa-twitter fa-1x" aria-hidden="true"></i></a>';
+		$content .= '<a class="sharewilly-link sharewilly-facebook sharewilly-transition" href="'.$facebook_url.'" target="_blank"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>';
+		$content .= '<a class="sharewilly-link sharewilly-googleplus sharewilly-transition" href="'.$google_url.'" target="_blank"><i class="fa fa-google-plus fa-1x" aria-hidden="true"></i></a>';
+		$content .= '<a class="sharewilly-link sharewilly-xing sharewilly-transition" href="'.$xing_url.'" target="_blank"><i class="fa fa-xing fa-1x" aria-hidden="true"></i></a>';
+		$content .= '<a class="sharewilly-link sharewilly-linkedin sharewilly-transition" href="'.$linkedIn_url.'" target="_blank"><i class="fa fa-linkedin fa-1x" aria-hidden="true"></i></a>';
+		$content .= '<a class="sharewilly-link sharewilly-pinterest sharewilly-transition" href="'.$pinterest_url.'" data-pin-custom="true" target="_blank"><i class="fa fa-pinterest-p fa-1x" aria-hidden="true"></i></a>';
 		$content .= '</div>';
 		
 		return $content;
