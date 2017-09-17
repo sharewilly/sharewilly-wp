@@ -14,7 +14,7 @@ To add our Sharewilly WP WordPress Plugin to your WordPress site you can use the
 6. Click "Activate Plugin" to activate it, or "Return" to "Plugin Installer" for further actions.
 7. That's it :-)
 
-![Sharewilly Buttons]https://www.teufelswerk.net/wp-content/uploads/2017/09/sharewilly-buttons.png)
+![Sharewilly Buttons](https://www.teufelswerk.net/wp-content/uploads/2017/09/sharewilly-buttons.png)
 
 # Settings
 
