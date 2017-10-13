@@ -41,7 +41,7 @@
 	<div class="wrap" style="background: #fff; padding:30px; width:60%;">
 		<h1 class="sw-options">Einfach teilen mit Sharewilly WP</h1>
 		<p>Ein kostenfreies WordPress-Plugin der <a href="http://muennecke-vollmers.de" target="_blank">Münnecke & Vollmers GbR.</a> Wir wünschen dir viel Spass mit Sharewilly WP!</p>
-		<img style="display: inline-block; float: left;" src="http://localhost/wordpress/taskwilly/plugins/sharewilly-wp/public/images/sharewilly-icon-wp.png" width="150" height="auto" />
+		<img style="display: inline-block; float: left;" src="https://github.com/sharewilly/sharewilly-wp/raw/master/public/images/sharewilly-icon-wp.png" width="150" height="auto" />
 		<form method="post" action="options.php">
             <?php
                 settings_fields( 'sharewilly_fields' );
