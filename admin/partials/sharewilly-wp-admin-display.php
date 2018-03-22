@@ -6,7 +6,7 @@
  * This file is used to markup the admin-facing aspects of the plugin.
  *
  * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/admin/partials
