@@ -1,6 +1,6 @@
 ![Sharewilly Logo](https://github.com/sharewilly/sharewilly/blob/master/images/sharewilly-promotion.png)
 
-# Sharewilly WP WordPress Plugin - Einfach teilen - Simple sharing
+# Sharewilly WP WordPress Plugin. Einfach teilen - Simple sharing. DSGVO-/GDDPR-konform! 
 
 # Install Sharewilly-WP
 
