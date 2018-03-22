@@ -20,4 +20,4 @@ To add our Sharewilly WP WordPress Plugin to your WordPress site you can use the
 
 On the left you will notice "Sharewilly WP" in the admin menu. On our Sharewilly WP settings page you are able to change the text in front of the sharing buttons.
 
-Copyright (c) 2017 Münnecke & Vollmers GbR
+Copyright (c) Münnecke & Vollmers GbR
