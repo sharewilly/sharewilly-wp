@@ -4,7 +4,7 @@
  * The public-facing functionality of the plugin.
  *
  * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/public
@@ -19,7 +19,7 @@ class Sharewilly_Wp_Public {
 	/**
 	 * The ID of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   private
 	 * @var      string    $plugin_name    The ID of this plugin.
 	 */
@@ -28,7 +28,7 @@ class Sharewilly_Wp_Public {
 	/**
 	 * The version of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   private
 	 * @var      string    $version    The current version of this plugin.
 	 */
@@ -37,7 +37,7 @@ class Sharewilly_Wp_Public {
 	/**
 	 * Initialize the class and set its properties.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @param      string    $plugin_name       The name of the plugin.
 	 * @param      string    $version    The version of this plugin.
 	 */
@@ -54,7 +54,7 @@ class Sharewilly_Wp_Public {
 	/**
 	 * Register the stylesheets for the public-facing side of the site.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 */
 	public function enqueue_styles() {
 
@@ -77,7 +77,7 @@ class Sharewilly_Wp_Public {
 	/**
 	 * Register the JavaScript for the public-facing side of the site.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 */
 	public function enqueue_scripts() {
 
@@ -101,7 +101,7 @@ class Sharewilly_Wp_Public {
 	/**
 	* Add the settings page to Sharewilly WP
 	*
-	* @since    1.0.0
+	* @since    1.0.1
 	*/
 
 	public function create_plugin_settings_page() {
@@ -121,7 +121,7 @@ class Sharewilly_Wp_Public {
 	/**
 	* Opens the form-html in public/partials/sharewilly-wp-public-display.php
 	*
-	* @since    1.0.0
+	* @since    1.0.1
 	*/
 
 	public function plugin_settings_page_content() { 
@@ -133,18 +133,18 @@ class Sharewilly_Wp_Public {
 	/**
 	* Everything you need to bring the sections of our options page alive
 	*
-	* @since    1.0.0
+	* @since    1.0.1
 	*/	
 	
 	public function setup_sections() {
-		add_settings_section( 'intro_section', 'Das kann Sharewilly WP:', array( $this, 'section_callback' ), 'sharewilly_fields' );
+		add_settings_section( 'intro_section', 'DSGVO-konform! Das kann Sharewilly WP:', array( $this, 'section_callback' ), 'sharewilly_fields' );
 
 	}
 
 	public function section_callback( $arguments ) {
 		switch( $arguments['id'] ){
 			case 'intro_section':
-				echo '<div class="ulli"><li class="myli">Mit Sharewilly WP können deine Webseiten-Besucher Beiträge und Seiten in den Sozialen Medien teilen.</li> <li  class="myli">Sharing-Buttons für Facebook, Google+, Twitter, LinkedIn, XING & Pinterest</li> <li  class="myli">Sharewilly WP kommt ganz ohne JavaScript daher.</li> <li  class="myli">Sharewilly WP ist effizient, schlank und schnell.</li> <li  class="myli">Wir tracken nicht! Sharewilly WP respektiert deine Privatspäre.</li></div>';
+				echo '<div class="ulli"><li class="myli">Mit Sharewilly WP können deine Webseiten-Besucher Beiträge und Seiten in den Sozialen Medien teilen.</li> <li  class="myli">Sharing-Buttons für Facebook, Google+, Twitter, LinkedIn, XING & Pinterest</li> <li  class="myli">Sharewilly WP ist DSGVO-konform und kommt ohne JavaScript und iframes daher.</li> <li  class="myli">Sharewilly WP ist effizient, schlank und schnell.</li> <li  class="myli">Wir tracken nicht! Sharewilly WP respektiert deine Privatspäre.</li></div>';
 				break;
 		}
 	}
@@ -163,6 +163,25 @@ class Sharewilly_Wp_Public {
 			'default' => 'Beitrag teilen mit Sharewilly WP'
 		)
 
+	/*array(
+		'uid' => 'our_third_field',
+		'label' => 'Awesome Select',
+		'section' => 'intro_section',
+		'type' => 'radio',
+		'options' => array(
+			'yes' => 'Yeppers',
+			'no' => 'No way dude!',
+			'maybe' => 'Meh, whatever.'
+		),
+		'placeholder' => 'Text goes here',
+		'helper' => 'Does this help?',
+		'supplemental' => 'I am underneath!',
+		'default' => 'maybe'
+	)*/
+		
+		
+		
+		
 	);
 		foreach( $fields as $field ){
 			add_settings_field( $field['uid'], $field['label'], array( $this, 'field_callback' ), 'sharewilly_fields', $field['section'], $field );
