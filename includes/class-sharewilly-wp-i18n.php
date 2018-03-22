@@ -7,7 +7,7 @@
  * so that it is ready for translation.
  *
  * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/includes
@@ -21,7 +21,7 @@ class Sharewilly_Wp_i18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 */
 	public function load_plugin_textdomain() {
 

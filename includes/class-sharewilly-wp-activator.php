@@ -4,7 +4,7 @@
  * Fired during plugin activation
  *
  * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/includes
@@ -19,7 +19,7 @@ class Sharewilly_Wp_Activator {
 	 *
 	 * Long Description.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 */
 	public static function activate() {
 

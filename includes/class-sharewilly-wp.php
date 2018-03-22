@@ -7,7 +7,7 @@
  * public-facing side of the site and the admin area.
  *
  * @link       http://muennecke-vollmers.de
- * @since      1.0.0
+ * @since      1.0.1
  *
  * @package    Sharewilly_Wp
  * @subpackage Sharewilly_Wp/includes
@@ -21,7 +21,7 @@ class Sharewilly_Wp {
 	 * The loader that's responsible for maintaining and registering all hooks that power
 	 * the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   protected
 	 * @var      Sharewilly_Wp_Loader    $loader    Maintains and registers all hooks for the plugin.
 	 */
@@ -30,7 +30,7 @@ class Sharewilly_Wp {
 	/**
 	 * The unique identifier of this plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   protected
 	 * @var      string    $plugin_name    The string used to uniquely identify this plugin.
 	 */
@@ -39,7 +39,7 @@ class Sharewilly_Wp {
 	/**
 	 * The current version of the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   protected
 	 * @var      string    $version    The current version of the plugin.
 	 */
@@ -52,13 +52,13 @@ class Sharewilly_Wp {
 	 * Load the dependencies, define the locale, and set the hooks for the admin area and
 	 * the public-facing side of the site.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 */
 	public function __construct() {
 		if ( defined( 'PLUGIN_VERSION' ) ) {
 			$this->version = PLUGIN_VERSION;
 		} else {
-			$this->version = '1.0.0';
+			$this->version = '1.0.1';
 		}
 		$this->plugin_name = 'sharewilly-wp';
 
@@ -82,7 +82,7 @@ class Sharewilly_Wp {
 	 * Create an instance of the loader which will be used to register the hooks
 	 * with WordPress.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   private
 	 */
 	private function load_dependencies() {
@@ -120,7 +120,7 @@ class Sharewilly_Wp {
 	 * Uses the Sharewilly_Wp_i18n class in order to set the domain and to register the hook
 	 * with WordPress.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   private
 	 */
 	private function set_locale() {
@@ -135,7 +135,7 @@ class Sharewilly_Wp {
 	 * Register all of the hooks related to the admin area functionality
 	 * of the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   private
 	 */
 	private function define_admin_hooks() {
@@ -151,7 +151,7 @@ class Sharewilly_Wp {
 	 * Register all of the hooks related to the public-facing functionality
 	 * of the plugin.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 * @access   private
 	 */
 	private function define_public_hooks() {
@@ -166,7 +166,7 @@ class Sharewilly_Wp {
 	/**
 	 * Run the loader to execute all of the hooks with WordPress.
 	 *
-	 * @since    1.0.0
+	 * @since    1.0.1
 	 */
 	public function run() {
 		$this->loader->run();
@@ -176,7 +176,7 @@ class Sharewilly_Wp {
 	 * The name of the plugin used to uniquely identify it within the context of
 	 * WordPress and to define internationalization functionality.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0.1
 	 * @return    string    The name of the plugin.
 	 */
 	public function get_plugin_name() {
@@ -186,7 +186,7 @@ class Sharewilly_Wp {
 	/**
 	 * The reference to the class that orchestrates the hooks with the plugin.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0.1
 	 * @return    Sharewilly_Wp_Loader    Orchestrates the hooks of the plugin.
 	 */
 	public function get_loader() {
@@ -196,7 +196,7 @@ class Sharewilly_Wp {
 	/**
 	 * Retrieve the version number of the plugin.
 	 *
-	 * @since     1.0.0
+	 * @since     1.0.1
 	 * @return    string    The version number of the plugin.
 	 */
 	public function get_version() {
