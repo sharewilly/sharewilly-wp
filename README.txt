@@ -6,7 +6,7 @@ Requires at least: 4.3
 Tested up to: 4.8.1
 Stable tag: 4.8
 Version: 1.0.1
-Copyright:  (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
+Copyright:  (c) Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
 
 
 Einfach teilen - Mit Sharewilly WP können deine Webseiten-Besucher Beiträge und Seiten in den Sozialen Medien teilen. 
