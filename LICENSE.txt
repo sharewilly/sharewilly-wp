@@ -2,14 +2,14 @@
  * Sharwilly WP plugin bootstrap file
  *
  * @link              http://muennecke-vollmers.de
- * @since             1.0.0
+ * @since             1.0.1
  * @package           Sharewilly_Wp
  *
  * @wordpress-plugin
  * Plugin Name:       Sharewilly WP - Share buttons for posts and pages
  * Plugin URI:        https://sharewilly.github.io/sharewilly/
  * Description:       A very simple and clean sharing plugin for your site. Let your visitors share posts and pages on Facebook, Twitter, Google+, LinkedIn, XING & Pinterest.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Münnecke & Vollners GbR
  * Author URI:        http://muennecke-vollmers.de
  * 

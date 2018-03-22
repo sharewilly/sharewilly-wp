@@ -5,7 +5,7 @@ Tags: wordpress, plugin, simple, clean, social sharing, facebook, twitter, linke
 Requires at least: 4.3
 Tested up to: 4.8.1
 Stable tag: 4.8
-Version: 1.0.0
+Version: 1.0.1
 Copyright:  (c) 2017 Münnecke & Vollmers GbR | widilo® - Eine Marke der Münnecke & Vollmers GbR
 
 
